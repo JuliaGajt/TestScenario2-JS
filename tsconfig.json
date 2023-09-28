@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "types": ["node", 
+                    "@wdio/globals/types", 
+                    "@wdio/cucumber-framework",
+                    "expect-webdriverio"
+                ],
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true
+    },
+    "allowImportingTsExtensions": true,
+    "strict": true
+    // "include": ["features/**/*", "pageobjects/*"],
+    // "target": "ES2019"
+    
+}
