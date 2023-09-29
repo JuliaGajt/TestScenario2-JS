@@ -56,6 +56,13 @@ async function openPage(pageName: string){
     case 'File Upload Example Page':
       await browser.url(`${browser.options.baseUrl}styled/file-upload-test.html`);
       break;
+    case 'Frames Test Page':
+      await browser.url(`${browser.options.baseUrl}styled/frames/frames-test.html`);
+      break;
+      //HTML5 Element Form Test Page
+    case 'HTML5 Element Form Test Page':
+      await browser.url(`${browser.options.baseUrl}styled/html5-form-test.html`);
+      break;
     default:
       console.log(`Page ${pageName} is invalid.`);
   }
